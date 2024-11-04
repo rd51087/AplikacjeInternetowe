@@ -1,0 +1,32 @@
+html {
+    font-family: Helvetica;
+    background-color: pink;
+    text-align: center;
+}
+
+header, footer {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    padding: 8px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#taskList li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    margin-left: 10px;
+}

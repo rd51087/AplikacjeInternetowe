@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>LAB_B</title>
+    </head>
+    <body>
+        <header>
+            <input type="text" id="searchInput" placeholder="Search..." oninput="todo.updateSearch()">
+        </header>
+        <main>
+            <ul id="taskList">
+        </main>
+        <footer>
+            <input type="text" id="taskInput" placeholder="Add new...">
+            <input type="date" id="deadlineInput">
+            <button onclick="addTask()">Add</button>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
