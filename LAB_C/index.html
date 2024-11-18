@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script src='https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js'></script>
+        <title>LAB_C</title>
+    </head>
+    <body>
+        <main>
+            <button onclick="getLocation()" id="location">My location</button>
+            <button onclick="doImage()" id="raster">Download map</button>
+            <button onclick="makePuzzle()" disabled id="puzzle">Make a puzzle</button>
+
+            <div id="result">
+                <div id="map"></div>
+            </div>
+            
+            <div class="solvedpuzzle" id="solvp">
+                <div class="sp" id="0"></div>
+                <div class="sp" id="4"></div>
+                <div class="sp" id="8"></div>
+                <div class="sp" id="12"></div>
+                <div class="sp" id="1"></div>
+                <div class="sp" id="5"></div>
+                <div class="sp" id="9"></div>
+                <div class="sp" id="13"></div>
+                <div class="sp" id="2"></div>
+                <div class="sp" id="6"></div>
+                <div class="sp" id="10"></div>
+                <div class="sp" id="14"></div>
+                <div class="sp" id="3"></div>
+                <div class="sp" id="7"></div>
+                <div class="sp" id="11"></div>
+                <div class="sp" id="15"></div>
+            </div>
+
+            <div class="mixedpuzzle" id="mixp">
+                <div class="mp" id="mpuzz1"></div>
+                <div class="mp" id="mpuzz2"></div>
+                <div class="mp" id="mpuzz3"></div>
+                <div class="mp" id="mpuzz4"></div>
+                <div class="mp" id="mpuzz5"></div>
+                <div class="mp" id="mpuzz6"></div>
+                <div class="mp" id="mpuzz7"></div>
+                <div class="mp" id="mpuzz8"></div>
+                <div class="mp" id="mpuzz9"></div>
+                <div class="mp" id="mpuzz10"></div>
+                <div class="mp" id="mpuzz11"></div>
+                <div class="mp" id="mpuzz12"></div>
+                <div class="mp" id="mpuzz13"></div>
+                <div class="mp" id="mpuzz14"></div>
+                <div class="mp" id="mpuzz15"></div>
+                <div class="mp" id="mpuzz16"></div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
