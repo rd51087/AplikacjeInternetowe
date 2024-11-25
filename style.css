@@ -1,0 +1,82 @@
+body {
+    font-family: Helvetica;
+    background-color: lightpink;
+}
+
+#weather-search-params, #weather-results-container {
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+#locationInput {
+    width: 250px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#checkButton {
+    padding: 10px 15px;
+    background-color: violet;
+    cursor: pointer;
+}
+
+#checkButton:hover {
+    background-color: blueviolet;
+}
+
+.weather-block {
+    display: flex;
+    float: left;
+    width: 100%;
+    max-width: 350px;
+    height: 150px;
+    border: 1px solid black;
+    position: relative;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.weather-date {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.weather-icon {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+}
+.weather-temperature, .weather-temperature-feels-like, .weather-description {
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.weather-temperature {
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.weather-temperature-feels-like {
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    font-size: 14px;
+}
+
+.weather-description {
+    position: absolute;
+    top: 90px;
+    left: 110px;
+    font-size: 14px;
+}
